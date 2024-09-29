@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShubhYatra - Automatic Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Book Now Button -->
+    <button class="book-now" onclick="location.href='#booking'">Book Now</button>
+
+    <!-- Slider Section -->
+    <div class="slider-container">
+        <div class="slider" id="slider"></div>
+        <div class="gradient-overlay"></div>
+        <div class="dots-container" id="dots-container"></div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h1>ShubhYatra</h1>
+        <p><strong>Date:</strong> Kartik 24, 10/11/2024, Sunday</p>
+        <p><strong>Duration:</strong> 9 Days</p>
+
+        <h2>Points of Interest</h2>
+        <ul>
+            <li>Mayapur</li>
+            <li>Navadweep</li>
+            <li>Tarapith</li>
+            <li>Kunj Bihar</li>
+            <li>Siliguri</li>
+            <li>ISKCON Temple</li>
+            <li>Darjeeling</li>
+            <li>Kamakhya, Assam</li>
+            <li>Bakaraswar Dham</li>
+            <li>And Others</li>
+        </ul>
+
+        <h2>Rules and Important Notes</h2>
+        <div class="notice">
+            <ol>
+                <li>Travelers must bring their own plates, glasses, and bedding materials for meals.</li>
+                <li>If any traveler wishes to arrange a special lodge at the pilgrimage site, they will bear the cost themselves. Accommodation will be provided for all travelers.</li>
+                <li>First aid facilities will be available during the trip.</li>
+                <li>Travelers must not wander around any site without the operator's instructions. If a guide is required, the cost of the guide will be shared among all.</li>
+                <li>If transportation like auto-rickshaw or car is needed during the trip, travelers will bear the cost.</li>
+                <li>You can book your seat by paying an advance amount of ₹3,001/-. The remaining amount must be paid five days before the trip.</li>
+                <li>The advance amount will not be refunded if a traveler is unable to join the trip for any reason.</li>
+                <li>Traveling may be challenging, but it is also immensely enjoyable.</li>
+                <li>The organizing committee is not responsible for any unforeseen accidents.</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Booking Section -->
+    <div id="booking" class="content">
+        <h2>Book Now</h2>
+        <p>To proceed with booking, please contact us:</p>
+        <ul>
+            <li>Phone: +91-9931332095</li>
+            <li>Email: info@shreeshreepremomoyeet&t</li>
+        </ul>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="packages.js"></script>
+     
+      <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            once: true, // Whether animation should happen only once
+            easing: 'ease-in-out', // Easing function
+        });
+    </script>
+</body>
+</html>
